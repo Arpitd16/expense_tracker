@@ -1,13 +1,14 @@
 {
   "project_info": {
-    "project_number": "359532353621",
-    "project_id": "expense-app-53304",
-    "storage_bucket": "expense-app-53304.appspot.com"
+    "project_number": "512428399497",
+    "firebase_url": "https://flutter-project-85fb6-default-rtdb.firebaseio.com",
+    "project_id": "flutter-project-85fb6",
+    "storage_bucket": "flutter-project-85fb6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:359532353621:android:13f6d6e576aa0567dc1cdc",
+        "mobilesdk_app_id": "1:512428399497:android:bcadf5606faae4ac20df58",
         "android_client_info": {
           "package_name": "com.example.expence_tracker"
         }
@@ -15,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyAzPu8IplPxiXQtl-xlQ8anDoSOnE6EoTM"
+          "current_key": "AIzaSyDolXad5H-T9ebf4y0UVFJPQtbhL54B70c"
         }
       ],
       "services": {

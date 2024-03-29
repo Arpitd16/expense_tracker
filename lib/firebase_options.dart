@@ -25,10 +25,7 @@ class DefaultFirebaseOptions {
       case TargetPlatform.iOS:
         return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -47,28 +44,41 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBCA59zufOtjpsPbKjbL6K_8HxrzT3VjbQ',
-    appId: '1:359532353621:web:4abab062c121fbaadc1cdc',
-    messagingSenderId: '359532353621',
-    projectId: 'expense-app-53304',
-    authDomain: 'expense-app-53304.firebaseapp.com',
-    storageBucket: 'expense-app-53304.appspot.com',
+    apiKey: 'AIzaSyA7nlH84uzVNckaAks114FIeT5cQ6L-TsQ',
+    appId: '1:512428399497:web:0b70cef3a8fa41f320df58',
+    messagingSenderId: '512428399497',
+    projectId: 'flutter-project-85fb6',
+    authDomain: 'flutter-project-85fb6.firebaseapp.com',
+    databaseURL: 'https://flutter-project-85fb6-default-rtdb.firebaseio.com',
+    storageBucket: 'flutter-project-85fb6.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAzPu8IplPxiXQtl-xlQ8anDoSOnE6EoTM',
-    appId: '1:359532353621:android:13f6d6e576aa0567dc1cdc',
-    messagingSenderId: '359532353621',
-    projectId: 'expense-app-53304',
-    storageBucket: 'expense-app-53304.appspot.com',
+    apiKey: 'AIzaSyDolXad5H-T9ebf4y0UVFJPQtbhL54B70c',
+    appId: '1:512428399497:android:bcadf5606faae4ac20df58',
+    messagingSenderId: '512428399497',
+    projectId: 'flutter-project-85fb6',
+    databaseURL: 'https://flutter-project-85fb6-default-rtdb.firebaseio.com',
+    storageBucket: 'flutter-project-85fb6.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyD2APeZy3AmEHQVDCM5ffMWjLBF-ncsUIQ',
-    appId: '1:359532353621:ios:46fac49aa6360144dc1cdc',
-    messagingSenderId: '359532353621',
-    projectId: 'expense-app-53304',
-    storageBucket: 'expense-app-53304.appspot.com',
+    apiKey: 'AIzaSyA1ASVaB-kA7iJGp4XBC5Po5v3Om-JtPbM',
+    appId: '1:512428399497:ios:3c9558804e17e0aa20df58',
+    messagingSenderId: '512428399497',
+    projectId: 'flutter-project-85fb6',
+    databaseURL: 'https://flutter-project-85fb6-default-rtdb.firebaseio.com',
+    storageBucket: 'flutter-project-85fb6.appspot.com',
     iosBundleId: 'com.example.expenceTracker',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyA1ASVaB-kA7iJGp4XBC5Po5v3Om-JtPbM',
+    appId: '1:512428399497:ios:ecff0af6013df73120df58',
+    messagingSenderId: '512428399497',
+    projectId: 'flutter-project-85fb6',
+    databaseURL: 'https://flutter-project-85fb6-default-rtdb.firebaseio.com',
+    storageBucket: 'flutter-project-85fb6.appspot.com',
+    iosBundleId: 'com.example.expenceTracker.RunnerTests',
   );
 }
